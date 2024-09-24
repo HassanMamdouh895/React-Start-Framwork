@@ -10,7 +10,7 @@ import About from "./Components/About/About.jsx";
 import Portfolio from "./Components/Portfolio/Portfolio.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
 const router= createBrowserRouter([
-  {path:'/test222/',element:<Layout/>,children:[
+  {path:'/React-Start-Framwork/',element:<Layout/>,children:[
     {index:true ,element:<Home/>},
   {path:"about",element:<About/>},
   {path:"portfolio",element:<Portfolio/>},
